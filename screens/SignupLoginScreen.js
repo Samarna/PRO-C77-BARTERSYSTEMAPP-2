@@ -2,7 +2,6 @@ import React,{Component} from 'react';
 import {TouchableOpacity, TextInput, View, Text, StyleSheet, Alert, Modal, ScrollView, KeyboardAvoidingView} from 'react-native';
 import firebase from 'firebase';
 import db from '../config.js';
-import BookAnimation from '../components/books.js';
 
 export default class SignupLoginScreen extends Component {
     constructor(){
