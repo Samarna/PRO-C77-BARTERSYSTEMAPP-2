@@ -48,7 +48,7 @@ export default class SignupLoginScreen extends Component {
         .then(()=>{
             //return Alert.alert("User successfully logged in!");
             console.log("User has logged in!")
-            this.props.navigation.navigate('donateBooks');
+            this.props.navigation.navigate('Exchange');
         }).catch((error)=>{
             var errorMessage = error.message;
             console.log(errorMessage);
